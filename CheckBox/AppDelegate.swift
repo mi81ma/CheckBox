@@ -20,9 +20,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         window?.makeKeyAndVisible()
         window?.backgroundColor = UIColor.white
+        let viewController = ViewController()
 
         // Set RootViewController in window? to be visible
-        window?.rootViewController = ViewController()
+        window?.rootViewController = viewController
         
         return true
     }
